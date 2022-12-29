@@ -1,0 +1,44 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+    padding: 30px;
+}
+
+.statWrap {
+    display: flex;
+}
+
+.StatItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    /* border: 1px solid black; */
+    min-width: 100px;
+}
+
+.label {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.percentage {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
